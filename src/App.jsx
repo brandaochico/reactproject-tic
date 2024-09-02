@@ -1,4 +1,4 @@
-import { Header, Content } from './components';
+import { Header, Content, Footer } from './components';
 
 import './App.css';
 
@@ -11,6 +11,7 @@ function App(){
         <h1>Teste</h1>
         <p>Teste teste teste teste teste</p>
       </Content>
+      <Footer creatorName="Chico"/>
     </>
   )
 }
