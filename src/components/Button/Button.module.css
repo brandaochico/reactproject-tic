@@ -1,0 +1,14 @@
+.Button {
+    background: var(--green);
+    border: 1px solid black;
+    padding: 0.25rem 0.75rem;
+    color: var(--grey);
+}
+
+.Button[type="1"] {
+    background: var(--green);
+}
+
+.Button[type="2"] {
+    background: var(--pink);
+}

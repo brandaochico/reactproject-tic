@@ -1,4 +1,5 @@
 import { Header, Content, Footer } from './components';
+import { Home } from './pages';
 
 import './App.css';
 
@@ -8,8 +9,7 @@ function App(){
     <>
       <Header />
       <Content>
-        <h1>Teste</h1>
-        <p>Teste teste teste teste teste</p>
+        <Home />
       </Content>
       <Footer creatorName="Chico"/>
     </>
