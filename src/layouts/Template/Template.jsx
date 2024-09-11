@@ -1,15 +1,20 @@
-import { Outlet } from "react-router-dom";
+import { useContext } from 'react';
+import { Outlet } from 'react-router-dom';
 
-import { Content, Footer, Header } from "../../components";
+
+import { useAppContext } from '../../hooks';
+import { Content, Footer, Header } from '../../components';
 
 const Template = () =>{
+    const { creator } = useAppContext();
+
     return (
         <>
             <Header />
             <Content>
                 <Outlet />
             </Content>
-            <Footer creatorName="Chico"/>
+            <Footer creator={creator}/>
         </>
     );
 };
