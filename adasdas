@@ -1,6 +1,0 @@
-[33m1fddb32[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31mreactproject-tic/main[m[33m)[m HEAD@{0}: commit: Added PageNotFound page.
-[33med6feec[m HEAD@{1}: commit: Template layout and routes base config.
-[33m918e774[m HEAD@{2}: commit: Home page, task lists and buttons created.
-[33m04f2126[m HEAD@{3}: commit: Added footer.
-[33m1e01480[m HEAD@{4}: commit: Components and moduled style.
-[33m87ea12a[m HEAD@{5}: commit (initial): Initial commit.
